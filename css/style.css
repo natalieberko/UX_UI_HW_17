@@ -2,11 +2,16 @@
     display: inline-block;
     vertical-align: top;
 }
-div.logo {
+.logo {
     width: 23%;
     padding: 1%;
+    text-align: center;
 }
 .nav {
     width: 23%;
     padding: 1%;
+}
+.ul {
+    width: 50%;
+    margin-left: auto;
 }
