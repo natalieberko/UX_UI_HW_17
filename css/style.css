@@ -7,11 +7,22 @@
     padding: 1%;
     text-align: center;
 }
-.nav {
+nav {
     width: 23%;
     padding: 1%;
+    text-decoration: none;
 }
 .ul {
     width: 50%;
     margin-left: auto;
+    text-decoration: none;
+}
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+footer {
+    display: inline-block;
+    vertical-align: top;
+
 }
