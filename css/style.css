@@ -1,6 +1,7 @@
 .inline-block {
     display: inline-block;
     vertical-align: top;
+    display: flex;
 }
 .logo {
     width: 23%;
@@ -8,21 +9,102 @@
     text-align: center;
 }
 nav {
-    width: 23%;
+    width: 73%;
     padding: 1%;
     text-decoration: none;
 }
-.ul {
+ul {
     width: 50%;
     margin-left: auto;
     text-decoration: none;
+    list-style-type: none;
 }
 .heroImg {
     height: 600px;
     padding: 25px;
+    width: 1005px;
 }
+.heroImg p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+}
+
 footer {
-    display: inline-block;
-    vertical-align: top;
+    display:inline-block;
+
+    background-color: #e0ebff;
+    margin-top: 50px;
+    width: 100%;
+}
+.box {
+    width: 720px;
+    height: 471px;
+    background-color: #5a94ff;
+    margin-left: 139px;
+    margin-bottom: 86px;
+    display: flex;
+    flex-direction: column;
+}
+.box .email a{
+    font-family: 'Playfair Display', serif;
+    font-size: 44px;
+    text-decoration: none;
+}
+.box p {
+    margin-left: 41px;
 
 }
+.collaborate {
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+}
+
+li {
+    float: right;
+}
+
+.heroImg h1 {
+    margin-bottom: 75px;
+}
+.heroImg .content img {
+    margin-left: 231px;
+    float: left;
+    padding: 15px;
+}
+
+.myStory {
+    display:flex;
+    width: 904px;
+    height: 792px;
+    background-color: white;
+}
+.story {
+    flex-direction: column;
+    margin-left: 139px;
+    justify-content: center;
+    margin-bottom: 55px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 19px;
+}
+h1 {
+    margin-left: 139px;
+}
+.content p {
+    margin-left: 139px;
+}
+button {
+    margin-left: 139px;
+    margin-top: 20px;
+    background-color: #fa8072;
+    height: 52px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.heroImg p {
+    margin-top: 180px;
+}
+.seemywork {
+    width: 184px;
+}
+
